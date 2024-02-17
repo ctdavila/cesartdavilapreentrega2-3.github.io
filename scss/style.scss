@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Bebas Neue', cursive;
+    background-color: #FBFBFB;
+    color: #444444;
+}
+
+a { 
+    color: #444444;
+}
+
+
+header { 
+    background-color: #f7f7f9;
+    padding:initial;
+    margin-bottom: 10px;
+}
+
+.header-content {
+    width: 100%;
+    text-align: center; 
+}
+
+
+
+.logo {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 50px;
+    padding: 30px;
+}
+
+nav {
+    background:linear-gradient(to right, #46474700, #38393a);
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: flex;
+    color: rgb(71, 69, 69);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+main {
+    margin: 20px;
+    padding: 20px;
+}
+
+.img {
+    margin-top: 15px;
+    width: 80%;
+    text-align: right;
+}
+
+.img img {
+    width: 800px;
+}
+.content-txt h1{
+    font-size: 70px;
+}
+
+.txt h3 {
+    font-size: 40px;
+}
+
+h1{
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 70px;
+}
+.main-txt{
+    text-align: center;
+}
+.main-img{
+    width: 100%; 
+    height: 90%; 
+    margin-left: 20%;
+
+}
+
+.sec-img img {
+    width: 250px
+}
+
+.sec.txt {
+    font-size: 60px;
+    width: 85%;
+    padding: 10px 0 10px 0;
+    width: 20%;
+}
+
+
+.sec-2-container{
+    font-size: 60px;
+    width: 85%;
+    padding: 10px 0 10px 0; 
+}
+
+.text-import{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+
+li {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+footer{
+    padding: 30px;
+    background:linear-gradient(to right, #46474700, #38393a);
+    margin-top: 120px;
+    color: #4e4c4c;
+    font-size: 15px;
+    text-align: center;
+}
+  
+
+
+.pages-body {
+    font-family: 'Bebas Neue', cursive;
+    background-color: #FBFBFB;
+    color: #444444;
+    min-height: 100vh;
+    justify-content: center;
+    background-color: #f5f5f5;
+
+}
+
+form {
+    text-align: left;
+    margin: 0 auto;
+    width: 400px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+
+}
+
+form h2 {
+    font-size: 35px;
+    margin-bottom: 35px;
+    color: #404040;
+}
+
+input {
+    background-color: #f1f1f1;
+    padding: 17px 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-radius: 25px;
+    color: #404040;
+    outline: none;
+    font-size: 16px;
+
+}
+
+.btn {
+    background-color: skyblue;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background-color: #42a8f6;
+
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    gap: 30px;
+    margin-bottom: -120px;
+}
+
+.container-img{
+    background-color: #f7f7f9;
+    text-align: center;
+
+}
+
+
+
+.container-price{
+    display: flex;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e4e4e4;
+    justify-content: space-between;
+
+}
+
+.container-price span{
+    display: flex;
+    
+}
+
+.container-details-product{
+    display: flex;
+    padding: 10px 0;
+}
+
+.form-group{
+    gap: 15px;
+    margin-bottom: 10px;
+    justify-content:left
+
+}
+
+.form-group label{
+    display: flex;
+    width: 100px;
+    color: #222;
+    font-weight: 90px;
+}
+
+
+.form-group select{
+    display: flex;
+    width: 120px;
+    border: #444444;
+    padding: 12px 15px;
+    background-color: #f7f7f9;
+    outline: none;
+    color: #666;
+}
+
+.container-description{
+    border-bottom: 1px solid #e4e4e4;
+    padding: 10px 0;
+}
+
+.title-description{
+    font-size: 20px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.text-description{
+    font-size: 25px;
+    color: #222;
+    line-height: 22px;
+    margin-top: 25px;
+
+}
