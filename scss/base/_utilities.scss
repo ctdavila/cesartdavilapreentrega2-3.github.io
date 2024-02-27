@@ -1,0 +1,2 @@
+@mixin gradient-background($gris, $gris-claro, $direction: to right) {
+    background: linear-gradient(to right, $gris, $gris-claro); }

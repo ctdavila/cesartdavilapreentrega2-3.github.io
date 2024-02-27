@@ -1,4 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+nav {
+  background: linear-gradient(to right, rgba(70, 71, 71, 0), #38393a);
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  display: flex;
+  color: rgb(71, 69, 69);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,15 +24,15 @@
 body {
   font-family: "Bebas Neue", cursive;
   background-color: #FBFBFB;
-  color: #444444;
+  color: #38393a;
 }
 
 a {
-  color: #444444;
+  color: #38393a;
 }
 
 header {
-  background-color: #f7f7f9;
+  background-color: #FBFBFB;
   padding: initial;
   margin-bottom: 10px;
 }
@@ -33,20 +47,6 @@ header {
   text-transform: uppercase;
   margin: 50px;
   padding: 30px;
-}
-
-nav {
-  background: linear-gradient(to right, rgba(70, 71, 71, 0), #38393a);
-  overflow: hidden;
-}
-
-nav a {
-  float: left;
-  display: flex;
-  color: rgb(71, 69, 69);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
 }
 
 main {
@@ -65,7 +65,7 @@ main {
 }
 
 .content-txt h1 {
-  font-size: 70px;
+  font-size: 50px;
 }
 
 .txt h3 {
@@ -117,29 +117,11 @@ li {
   margin-bottom: 20px;
 }
 
-footer {
-  padding: 30px;
-  background: linear-gradient(to right, rgba(70, 71, 71, 0), #38393a);
-  margin-top: 120px;
-  color: #4e4c4c;
-  font-size: 15px;
-  text-align: center;
-}
-
-.pages-body {
-  font-family: "Bebas Neue", cursive;
-  background-color: #FBFBFB;
-  color: #444444;
-  min-height: 100vh;
-  justify-content: center;
-  background-color: #f5f5f5;
-}
-
 form {
   text-align: left;
   margin: 0 auto;
   width: 400px;
-  background-color: #f5f5f5;
+  background-color: #FBFBFB;
   padding: 20px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
@@ -151,7 +133,7 @@ form h2 {
 }
 
 input {
-  background-color: #f1f1f1;
+  background-color: #FBFBFB;
   padding: 17px 20px;
   margin-bottom: 20px;
   border: 0;
@@ -162,21 +144,14 @@ input {
 }
 
 .btn {
-  background-color: skyblue;
-  color: white;
+  background-color: #87ceeb;
+  color: #FBFBFB;
   text-transform: uppercase;
   font-size: 15px;
   cursor: pointer;
 }
-
 .btn:hover {
   background-color: #42a8f6;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 main {
@@ -185,14 +160,14 @@ main {
 }
 
 .container-img {
-  background-color: #f7f7f9;
+  background-color: #FBFBFB;
   text-align: center;
 }
 
 .container-price {
   display: flex;
   padding-bottom: 15px;
-  border-bottom: 1px solid #e4e4e4;
+  border-bottom: 1px solid #FBFBFB;
   justify-content: space-between;
 }
 
@@ -223,13 +198,13 @@ main {
   width: 120px;
   border: #444444;
   padding: 12px 15px;
-  background-color: #f7f7f9;
+  background-color: #FBFBFB;
   outline: none;
   color: #666;
 }
 
 .container-description {
-  border-bottom: 1px solid #e4e4e4;
+  border-bottom: 1px solid #FBFBFB;
   padding: 10px 0;
 }
 
@@ -244,6 +219,24 @@ main {
   color: #222;
   line-height: 22px;
   margin-top: 25px;
+}
+
+footer {
+  padding: 30px;
+  background: linear-gradient(to right, rgba(70, 71, 71, 0), #38393a);
+  margin-top: 120px;
+  color: #4e4c4c;
+  font-size: 15px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1200px) {
+  h1 {
+    font-size: 15px;
+  }
+}
+.element {
+  background: linear-gradient(to right, rgba(70, 71, 71, 0), #38393a);
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,16 @@
+
+nav {
+    background:linear-gradient(to right, $gris, $gris-claro);
+    overflow: hidden;
+}
+
+nav {
+    a {
+    float: left;
+    display: flex;
+    color: rgb(71, 69, 69);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+}
